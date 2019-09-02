@@ -4,7 +4,7 @@ function getNumberOfCustomers() {
     return Math.floor(Math.random() * 36);
 };
 
-setInterval(createBarchart, 1500);
+setInterval(createBarchart, 500);
 
 function createBarchart() {
     const queueSize = getNumberOfCustomers();
